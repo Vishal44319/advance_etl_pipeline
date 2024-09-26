@@ -1,9 +1,12 @@
-# Ignore the virtual environment
+# Ignore virtual environment files
 venv/
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
 
-# Ignore environment-specific files
-.env
+# Ignore config files (like credentials or API keys)
+config/*.yaml
+
+# Ignore log files
+logs/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc 
